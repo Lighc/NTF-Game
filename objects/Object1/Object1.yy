@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"D_Class",
-    "path":"sprites/D_Class/D_Class.yy",
+    "name":"NTF",
+    "path":"sprites/NTF/NTF.yy",
   },
   "spriteMaskId":null,
   "visible":true,
