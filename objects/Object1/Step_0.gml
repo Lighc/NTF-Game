@@ -1,9 +1,9 @@
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 if (keyboard_check(ord("W")))
 {
-	if (speed < 5)
+	if (speed < 3)
 	{
-		speed += 2;
+		speed += 1;
 	}
 	
 	direction = image_angle;
