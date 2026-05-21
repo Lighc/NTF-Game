@@ -21,6 +21,7 @@
   "resources":[
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"D_Boy","path":"sprites/D_Boy/D_Boy.yy",},},
     {"id":{"name":"NTF","path":"sprites/NTF/NTF.yy",},},
   ],
   "resourceType":"GMProject",
