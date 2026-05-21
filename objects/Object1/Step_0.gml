@@ -10,13 +10,17 @@ if (keyboard_check(ord("W")))
 }
 else
 {
-	speed = 0;
-}
-
-if (keyboard_check(ord("S")))
+	if (keyboard_check(ord("S")))
 {
-	if (speed > 0)
+	if (speed < 1.5)
 	{
-		speed -= 0.1;
+		speed += 0.3;
+	}
+	
+	direction = image_angle - 180;
+	}
+	else
+	{
+		speed = 0;	
 	}
 }
