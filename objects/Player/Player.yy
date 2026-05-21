@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
+  "%Name":"Player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object1",
+  "name":"Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"NTF Game",
-    "path":"NTF Game.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"NTF",
-    "path":"sprites/NTF/NTF.yy",
+    "name":"NTFSpr",
+    "path":"sprites/NTFSpr/NTFSpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
