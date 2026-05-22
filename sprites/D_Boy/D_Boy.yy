@@ -2,24 +2,24 @@
   "$GMSprite":"v2",
   "%Name":"D_Boy",
   "bboxMode":0,
-  "bbox_bottom":874,
-  "bbox_left":62,
-  "bbox_right":905,
-  "bbox_top":94,
+  "bbox_bottom":905,
+  "bbox_left":125,
+  "bbox_right":1186,
+  "bbox_top":125,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e7ed0f1d-c639-4a22-89c1-83b849d7d322","name":"e7ed0f1d-c639-4a22-89c1-83b849d7d322","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6083799a-a301-43b4-8256-98d1d8a507b9","name":"6083799a-a301-43b4-8256-98d1d8a507b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"292ea60c-ab0e-454a-8272-4e77b4cc1e01","blendMode":0,"displayName":"default","isLocked":false,"name":"292ea60c-ab0e-454a-8272-4e77b4cc1e01","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a3991d93-1c2a-46df-a77a-0e3b4acbfa9d","blendMode":0,"displayName":"default","isLocked":false,"name":"a3991d93-1c2a-46df-a77a-0e3b4acbfa9d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"D_Boy",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7ed0f1d-c639-4a22-89c1-83b849d7d322","path":"sprites/D_Boy/D_Boy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ee4f90b0-9e35-4802-8463-ad887fdce375","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6083799a-a301-43b4-8256-98d1d8a507b9","path":"sprites/D_Boy/D_Boy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4158c6e5-0f8f-4566-a83a-39d82ee0f423","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1000,
+  "width":2000,
 }
