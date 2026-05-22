@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"NTFSpr",
-    "path":"sprites/NTFSpr/NTFSpr.yy",
+    "name":"NTF_Idle",
+    "path":"sprites/NTF_Idle/NTF_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

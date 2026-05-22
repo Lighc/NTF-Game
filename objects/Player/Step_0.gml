@@ -39,6 +39,7 @@ var target_speed = 0;
 
 if (keyboard_check(ord("W")))
 {
+	sprite_index = NTF_Walk
     if (move_speed < 3)
     {
         move_speed += 1;
@@ -49,13 +50,18 @@ if (keyboard_check(ord("W")))
 }
 else if (keyboard_check(ord("S")))
 {
+	sprite_index = NTF_Walk
     if (move_speed < 1.5)
     {
         move_speed += 0.3;
     }
-
+	
     target_speed = move_speed;
     move_dir = image_angle + 180;
+}
+else if (keyboard_check(vk_nokey))
+{
+	sprite_index = NTF_Idle
 }
 else
 {
