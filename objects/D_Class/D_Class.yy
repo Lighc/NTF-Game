@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"Bullet",
+  "%Name":"D_Class",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"BulletCollision","path":"objects/BulletCollision/BulletCollision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Bullet",
+  "name":"D_Class",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"BulletCollision",
+    "path":"objects/BulletCollision/BulletCollision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BulletSpr",
-    "path":"sprites/BulletSpr/BulletSpr.yy",
+    "name":"D_BoySpr",
+    "path":"sprites/D_BoySpr/D_BoySpr.yy",
   },
   "spriteMaskId":null,
   "visible":true,

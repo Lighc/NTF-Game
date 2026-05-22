@@ -40,7 +40,7 @@ else
 }
 
 // Shooting
-if (mouse_check_button(mb_left))
+if (mouse_check_button(mb_left)) and (ammo > 0)
 {
 	if fire_cooldown <= 0
 	{
@@ -49,10 +49,21 @@ if (mouse_check_button(mb_left))
 		b.direction = BulletSpawn.image_angle;
 		
 		fire_cooldown = fire_cooldown_max;
+		ammo -= 1
 	}
 }
 
 if fire_cooldown > 0
 {
 	fire_cooldown -= 1;
+}
+
+// Reloading
+if (keyboard_check(ord("R")))
+{
+	if (mags > 0)
+	{
+		ammo = 30
+		mags -=1
+	}
 }

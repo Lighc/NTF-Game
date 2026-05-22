@@ -1,0 +1,1 @@
+other.f_hit(id, damage);
