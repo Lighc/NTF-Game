@@ -1,4 +1,18 @@
+// Bullet Spawner Attachment
+array_foreach(attached, function(_item)
+{
+	var _x = lengthdir_x(_item.len, _item.dir + image_angle);	
+	var _y = lengthdir_y(_item.len, _item.dir + image_angle);
+	
+	_item.inst.x = x + _x;
+	_item.inst.y = y + _y;
+	_item.inst.image_angle = image_angle;
+})
+
+// Rotation towards the mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y);
+
+// Movement
 if (keyboard_check(ord("W")))
 {
 	if (speed < 3)
@@ -23,4 +37,22 @@ else
 	{
 		speed = 0;	
 	}
+}
+
+// Shooting
+if (mouse_check_button(mb_left))
+{
+	if fire_cooldown <= 0
+	{
+		var b = instance_create_depth(BulletSpawn.x, BulletSpawn.y, 5, Bullet)
+		b.speed = 10;
+		b.direction = BulletSpawn.image_angle;
+		
+		fire_cooldown = fire_cooldown_max;
+	}
+}
+
+if fire_cooldown > 0
+{
+	fire_cooldown -= 1;
 }
