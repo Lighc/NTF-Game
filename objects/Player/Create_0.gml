@@ -1,7 +1,14 @@
 // Angle for looking at mouse
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-walls = layer_tilemap_get_id("Floor")
+// Movement speed
+move_speed = 0;
+max_speed_forward = 3;
+max_speed_backward = 1.5;
+
+// Get the tilemap ID once
+var lay_id = layer_get_id("Walls");
+collision_tilemap = layer_tilemap_get_id(lay_id);
 
 // Gun Cooldown
 fire_cooldown = 0;
