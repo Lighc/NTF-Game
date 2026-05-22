@@ -10,3 +10,11 @@ f_hit = function(_id, _damage) {
 }
 
 hp = 100;
+
+ammo = 15;
+mags = 10;
+
+angle = 0;
+
+bullet_cd = 30;
+bullet_cd_max = 30;

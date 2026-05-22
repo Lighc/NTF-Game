@@ -30,3 +30,17 @@ add_attached(BulletSpawn);
 // Ammo
 mags = 15;
 ammo = 30;
+
+// Health
+hp = 100;
+
+hit = function(_id, _damage) {
+	hp -= _damage
+	
+	if (hp <= 0)
+	{
+		instance_destroy();
+	}
+	
+	instance_destroy(_id);
+}

@@ -137,3 +137,5 @@ if (keyboard_check(ord("R")))
 		mags -=1
 	}
 }
+
+// Healthbar
