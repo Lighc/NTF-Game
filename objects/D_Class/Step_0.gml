@@ -20,3 +20,8 @@ if (instance_exists(Player))
 		move_towards_point(Player.x, Player.y, 2.5)
 	}
 }
+
+if (place_meeting(x, y, collision_tilemap))
+{
+	speed = 0;	
+}

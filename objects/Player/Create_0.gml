@@ -39,3 +39,14 @@ hit = function(_id, _damage) {
 	
 	instance_destroy(_id);
 }
+
+// Speed
+move_speed = 0;
+
+x_remainder = 0;
+y_remainder = 0;
+
+// Very important: disable GameMaker built-in movement
+speed = 0;
+hspeed = 0;
+vspeed = 0;

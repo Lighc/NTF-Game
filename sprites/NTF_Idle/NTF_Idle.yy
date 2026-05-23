@@ -6,7 +6,7 @@
   "bbox_left":62,
   "bbox_right":1780,
   "bbox_top":31,
-  "collisionKind":1,
+  "collisionKind":0,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
