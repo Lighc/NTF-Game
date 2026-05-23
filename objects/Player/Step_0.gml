@@ -68,4 +68,8 @@ if (keyboard_check(ord("R")))
 	}
 }
 
-// Healthbar
+// Collision
+if (tile_meeting(x, y, layer_get_id("Walls")))
+{
+	speed = 0;
+}

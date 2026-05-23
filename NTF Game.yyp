@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bullets","folderPath":"folders/Objects/Bullets.yy","name":"Bullets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +37,7 @@
     {"id":{"name":"PlayerCollision","path":"objects/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"TileSetCollision","path":"scripts/TileSetCollision/TileSetCollision.yy",},},
     {"id":{"name":"BulletSpr","path":"sprites/BulletSpr/BulletSpr.yy",},},
     {"id":{"name":"dBoy_Idle","path":"sprites/dBoy_Idle/dBoy_Idle.yy",},},
     {"id":{"name":"dBoy_Walk","path":"sprites/dBoy_Walk/dBoy_Walk.yy",},},
@@ -43,6 +45,7 @@
     {"id":{"name":"NTF_Idle","path":"sprites/NTF_Idle/NTF_Idle.yy",},},
     {"id":{"name":"NTF_Walk","path":"sprites/NTF_Walk/NTF_Walk.yy",},},
     {"id":{"name":"WallsSpr","path":"sprites/WallsSpr/WallsSpr.yy",},},
+    {"id":{"name":"WallsSprFrames","path":"sprites/WallsSprFrames/WallsSprFrames.yy",},},
     {"id":{"name":"Floor","path":"tilesets/Floor/Floor.yy",},},
     {"id":{"name":"Walls","path":"tilesets/Walls/Walls.yy",},},
   ],

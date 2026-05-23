@@ -12,4 +12,11 @@ if (instance_exists(Player))
 		b.direction = image_angle;
 		bullet_cd = bullet_cd_max;
 	}
+	
+	distance_to_player = point_distance(x, y, Player.x, Player.y)
+	
+	if (distance_to_player >= 500)
+	{
+		move_towards_point(Player.x, Player.y, 2.5)
+	}
 }
