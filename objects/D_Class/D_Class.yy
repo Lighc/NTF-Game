@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"D_BoySpr",
-    "path":"sprites/D_BoySpr/D_BoySpr.yy",
+    "name":"dBoy_Idle",
+    "path":"sprites/dBoy_Idle/dBoy_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
